@@ -7,7 +7,7 @@ const DailyUI: React.FC = () => {
     <div className={styles.container}>
       <PlantWithShadow />
       <div className={styles.text}>
-        <h3 className={styles.heading}>Daily(ish) UI - Plant</h3>
+        <h3 className={styles.heading}>Daily UI - Plant</h3>
         <p className={styles.subtext}>Made with pure CSS!</p>
       </div>
     </div>

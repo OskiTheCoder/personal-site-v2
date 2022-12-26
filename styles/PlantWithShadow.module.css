@@ -9,7 +9,7 @@
 .pot {
   width: 30%;
   height: 32%;
-  background: pink;
+  background: rgb(250, 178, 255);
   border-radius: 5px 5px 85px 85px;
   position: absolute;
   bottom: 20%;
@@ -34,28 +34,54 @@
 }
 
 .leaf-1 {
-  height: 100px;
-  width: 100px;
+  height: 56px;
+  width: 56px;
   background-color: #8aa53a;
   top: 40%;
   left: 29%;
   z-index: 3;
   transform: rotate(10deg);
+  animation: leaf1 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf1 {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
 }
 
 .leaf-2 {
-  height: 80px;
-  width: 80px;
+  height: 56px;
+  width: 56px;
   background-color: #496b38;
   top: 44%;
   left: 37.5%;
   z-index: 3;
   transform: rotate(-27deg);
+  animation: leaf1 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf2 {
+  0% {
+    transform: rotate(-27deg);
+  }
+  50% {
+    transform: rotate(-37deg);
+  }
+  100% {
+    transform: rotate(-27deg);
+  }
 }
 
 .leaf-3 {
-  height: 90px;
-  width: 90px;
+  height: 63px;
+  width: 63px;
   background-color: #8aa53a;
   top: 42%;
   left: 46%;
@@ -64,8 +90,8 @@
 }
 
 .leaf-4 {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   background-color: #496b38;
   top: 37%;
   left: 49%;
@@ -74,18 +100,18 @@
 }
 
 .leaf-5 {
-  height: 60px;
-  width: 60px;
+  height: 42px;
+  width: 42px;
   background-color: #8aa53a;
   top: 33%;
   left: 47%;
   z-index: 3;
-  transform: rotate(9deg);
+  transform: rotate(30deg);
 }
 
 .leaf-6 {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   background-color: #496b38;
   top: 24%;
   left: 44%;
@@ -94,8 +120,8 @@
 }
 
 .leaf-7 {
-  height: 90px;
-  width: 100px;
+  height: 63px;
+  width: 70px;
   background-color: #70872f;
   top: 30%;
   left: 47%;
@@ -104,8 +130,8 @@
 }
 
 .leaf-8 {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   background-color: #70872f;
   top: 24%;
   left: 35%;
@@ -114,8 +140,8 @@
 }
 
 .leaf-9 {
-  height: 70px;
-  width: 70px;
+  height: 49px;
+  width: 49px;
   background-color: #496b38;
   top: 30%;
   left: 30%;
@@ -124,8 +150,8 @@
 }
 
 .leaf-10 {
-  height: 90px;
-  width: 90px;
+  height: 63px;
+  width: 63px;
   background-color: #8aa53a;
   top: 33%;
   left: 29%;
@@ -134,8 +160,8 @@
 }
 
 .leaf-11 {
-  height: 60px;
-  width: 50px;
+  height: 42px;
+  width: 35px;
   background-color: #70872f;
   top: 38.5%;
   left: 36.5%;
@@ -144,8 +170,8 @@
 }
 
 .leaf-12 {
-  height: 60px;
-  width: 50px;
+  height: 42px;
+  width: 35px;
   background-color: #496b38;
   top: 37.5%;
   left: 31.5%;

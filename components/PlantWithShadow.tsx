@@ -17,7 +17,7 @@ const PlantWithShadow = () => {
       <div className={`${styles.leaf} ${styles['leaf-11']}`}></div>
       <div className={`${styles.leaf} ${styles['leaf-12']}`}></div>
       <div className={styles.pot}></div>
-      <div className='shadow'></div>
+      <div className={styles.shadow}></div>
     </div>
   );
 };
