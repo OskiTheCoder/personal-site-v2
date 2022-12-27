@@ -9,7 +9,7 @@
 .pot {
   width: 30%;
   height: 32%;
-  background: rgb(250, 178, 255);
+  background: rgb(239, 191, 123);
   border-radius: 5px 5px 85px 85px;
   position: absolute;
   bottom: 20%;
@@ -36,7 +36,7 @@
 .leaf-1 {
   height: 56px;
   width: 56px;
-  background-color: #8aa53a;
+  background-color: #513863;
   top: 40%;
   left: 29%;
   z-index: 3;
@@ -49,7 +49,7 @@
     transform: rotate(10deg);
   }
   50% {
-    transform: rotate(20deg);
+    transform: rotate(15deg);
   }
   100% {
     transform: rotate(10deg);
@@ -59,12 +59,12 @@
 .leaf-2 {
   height: 56px;
   width: 56px;
-  background-color: #496b38;
+  background-color: #513863;
   top: 44%;
   left: 37.5%;
   z-index: 3;
   transform: rotate(-27deg);
-  animation: leaf1 2s infinite alternate ease-in-out;
+  animation: leaf2 2s infinite alternate ease-in-out;
 }
 
 @keyframes leaf2 {
@@ -72,7 +72,7 @@
     transform: rotate(-27deg);
   }
   50% {
-    transform: rotate(-37deg);
+    transform: rotate(-24deg);
   }
   100% {
     transform: rotate(-27deg);
@@ -82,37 +82,76 @@
 .leaf-3 {
   height: 63px;
   width: 63px;
-  background-color: #8aa53a;
+  background-color: #513863;
   top: 42%;
   left: 46%;
   z-index: 3;
   transform: rotate(96deg);
+  animation: leaf3 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf3 {
+  0% {
+    transform: rotate(96deg);
+  }
+  50% {
+    transform: rotate(91deg);
+  }
+  100% {
+    transform: rotate(96deg);
+  }
 }
 
 .leaf-4 {
   height: 70px;
   width: 70px;
-  background-color: #496b38;
+  background-color: #5a3d6d;
   top: 37%;
   left: 49%;
   z-index: 4;
   transform: rotate(-117deg);
+  animation: leaf4 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf4 {
+  0% {
+    transform: rotate(-117deg);
+  }
+  50% {
+    transform: rotate(-115deg);
+  }
+  100% {
+    transform: rotate(-117deg);
+  }
 }
 
 .leaf-5 {
   height: 42px;
   width: 42px;
-  background-color: #8aa53a;
+  background-color: #513863;
   top: 33%;
   left: 47%;
   z-index: 3;
   transform: rotate(30deg);
+  animation: leaf5 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf5 {
+  0% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(27deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
 }
 
 .leaf-6 {
   height: 70px;
   width: 70px;
-  background-color: #496b38;
+  background-color: #5a3d6d;
   top: 24%;
   left: 44%;
   z-index: 2;
@@ -120,19 +159,32 @@
 }
 
 .leaf-7 {
-  height: 63px;
+  height: 83px;
   width: 70px;
-  background-color: #70872f;
+  background-color: #5a3d6d;
   top: 30%;
   left: 47%;
   z-index: 2;
   transform: rotate(11deg);
+  animation: leaf7 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf7 {
+  0% {
+    transform: rotate(11deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(11deg);
+  }
 }
 
 .leaf-8 {
-  height: 70px;
+  height: 85px;
   width: 70px;
-  background-color: #70872f;
+  background-color: #5a3d6d;
   top: 24%;
   left: 35%;
   z-index: 2;
@@ -142,17 +194,30 @@
 .leaf-9 {
   height: 49px;
   width: 49px;
-  background-color: #496b38;
+  background-color: #5a3d6d;
   top: 30%;
   left: 30%;
   z-index: 1;
   transform: rotate(75deg);
+  animation: leaf9 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf9 {
+  0% {
+    transform: rotate(75deg);
+  }
+  50% {
+    transform: rotate(76deg);
+  }
+  100% {
+    transform: rotate(75deg);
+  }
 }
 
 .leaf-10 {
   height: 63px;
   width: 63px;
-  background-color: #8aa53a;
+  background-color: #513863;
   top: 33%;
   left: 29%;
   z-index: 3;
@@ -162,7 +227,7 @@
 .leaf-11 {
   height: 42px;
   width: 35px;
-  background-color: #70872f;
+  background-color: #5a3d6d;
   top: 38.5%;
   left: 36.5%;
   z-index: 4;
@@ -171,10 +236,23 @@
 
 .leaf-12 {
   height: 42px;
-  width: 35px;
-  background-color: #496b38;
-  top: 37.5%;
-  left: 31.5%;
+  width: 25px;
+  background-color: #5a3d6d;
+  top: 38.5%;
+  left: 29.5%;
   z-index: 2;
   transform: rotate(-150deg);
+  animation: leaf12 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf12 {
+  0% {
+    transform: rotate(-150deg);
+  }
+  50% {
+    transform: rotate(-152deg);
+  }
+  100% {
+    transform: rotate(-150deg);
+  }
 }
