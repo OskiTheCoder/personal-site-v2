@@ -1,8 +1,9 @@
 import React from 'react';
 import HeroCard from './HeroCard';
 import SocialIcons from './SocialIcons';
-import DailyUI from './DailyUI';
+import PlantCard from './PlantCard';
 import styles from '../styles/HomePageContent.module.css';
+import BlogComingSoon from './BlogComingSoon';
 
 const HomePageContent: React.FC = () => {
   return (
@@ -12,7 +13,8 @@ const HomePageContent: React.FC = () => {
         <SocialIcons />
       </div>
       <div className={styles['right-container']}>
-        <DailyUI />
+        <PlantCard />
+        <BlogComingSoon />
       </div>
     </>
   );

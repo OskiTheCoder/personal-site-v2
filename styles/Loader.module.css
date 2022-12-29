@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 375px;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  position: relative;
+}
+
+.loader > * {
+  width: 3px;
+  height: 10px;
+  border-radius: 45px;
+  background: white;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+}
+
+.loading-bar-1 {
+  transform: rotate(0deg) translate(0, -120%);
+}
+
+.loading-bar-2 {
+  transform: rotate(30deg) translate(0, -120%);
+}
+
+.loading-bar-3 {
+  transform: rotate(60deg) translate(0, -120%);
+}
+
+.loading-bar-4 {
+  transform: rotate(90deg) translate(0, -120%);
+}
+
+.loading-bar-5 {
+  transform: rotate(120deg) translate(0, -120%);
+}
+
+.loading-bar-6 {
+  transform: rotate(150deg) translate(0, -120%);
+}
+
+.loading-bar-7 {
+  transform: rotate(180deg) translate(0, -120%);
+}
+
+.loading-bar-8 {
+  transform: rotate(210deg) translate(0, -120%);
+}
+
+.loading-bar-9 {
+  transform: rotate(240deg) translate(0, -120%);
+}
+
+.loading-bar-10 {
+  transform: rotate(270deg) translate(0, -120%);
+}
+
+.loading-bar-11 {
+  transform: rotate(300deg) translate(0, -120%);
+}
+
+.loading-bar-12 {
+  transform: rotate(330deg) translate(0, -120%);
+}
