@@ -9,7 +9,7 @@ const BlogComingSoon: React.FC = () => {
         <Loader />
         <div className={styles['text-container']}>
           <h3 className={styles.heading}>Blog</h3>
-          <p className={styles.subtext}>Coming soon</p>
+          <p className={styles.subtext}>Coming soon ✨</p>
         </div>
       </div>
     </div>

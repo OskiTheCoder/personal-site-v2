@@ -2,13 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 375px;
+  padding: 70px 130px 40px 130px;
 }
 
 .loader {
-  width: 60px;
-  height: 60px;
-  display: inline-block;
+  height: 50px;
+  width: 50px;
   position: relative;
 }
 
@@ -20,52 +19,75 @@
   position: absolute;
   top: 46%;
   left: 50%;
+  animation: flash 1s linear infinite;
+  opacity: 0;
 }
 
-.loading-bar-1 {
-  transform: rotate(0deg) translate(0, -120%);
+@keyframes flash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.05;
+  }
 }
 
-.loading-bar-2 {
-  transform: rotate(30deg) translate(0, -120%);
+.loading-tick-1 {
+  transform: rotate(0deg) translate(0, -140%);
+  animation-delay: 0s;
 }
 
-.loading-bar-3 {
-  transform: rotate(60deg) translate(0, -120%);
+.loading-tick-2 {
+  transform: rotate(30deg) translate(0, -140%);
+  animation-delay: calc(-11s / 12);
 }
 
-.loading-bar-4 {
-  transform: rotate(90deg) translate(0, -120%);
+.loading-tick-3 {
+  transform: rotate(60deg) translate(0, -140%);
+  animation-delay: calc(-10s / 12);
 }
 
-.loading-bar-5 {
-  transform: rotate(120deg) translate(0, -120%);
+.loading-tick-4 {
+  transform: rotate(90deg) translate(0, -140%);
+  animation-delay: calc(-9s / 12);
 }
 
-.loading-bar-6 {
-  transform: rotate(150deg) translate(0, -120%);
+.loading-tick-5 {
+  transform: rotate(120deg) translate(0, -140%);
+  animation-delay: calc(-8s / 12);
 }
 
-.loading-bar-7 {
-  transform: rotate(180deg) translate(0, -120%);
+.loading-tick-6 {
+  transform: rotate(150deg) translate(0, -140%);
+  animation-delay: calc(-7s / 12);
 }
 
-.loading-bar-8 {
-  transform: rotate(210deg) translate(0, -120%);
+.loading-tick-7 {
+  transform: rotate(180deg) translate(0, -140%);
+  animation-delay: calc(-6s / 12);
 }
 
-.loading-bar-9 {
-  transform: rotate(240deg) translate(0, -120%);
+.loading-tick-8 {
+  transform: rotate(210deg) translate(0, -140%);
+  animation-delay: calc(-5s / 12);
 }
 
-.loading-bar-10 {
-  transform: rotate(270deg) translate(0, -120%);
+.loading-tick-9 {
+  transform: rotate(240deg) translate(0, -140%);
+  animation-delay: calc(-4s / 12);
 }
 
-.loading-bar-11 {
-  transform: rotate(300deg) translate(0, -120%);
+.loading-tick-10 {
+  transform: rotate(270deg) translate(0, -140%);
+  animation-delay: calc(-3s / 12);
 }
 
-.loading-bar-12 {
-  transform: rotate(330deg) translate(0, -120%);
+.loading-tick-11 {
+  transform: rotate(300deg) translate(0, -140%);
+  animation-delay: calc(-2s / 12);
+}
+
+.loading-tick-12 {
+  transform: rotate(330deg) translate(0, -140%);
+  animation-delay: calc(-1s / 12);
 }

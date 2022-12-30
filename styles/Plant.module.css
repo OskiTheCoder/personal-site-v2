@@ -1,0 +1,167 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 130px 50px 130px;
+}
+
+.inner-container {
+  width: 50px;
+  height: 80px;
+  position: relative;
+}
+
+.outer-pot {
+  background-color: #2f3640;
+  position: absolute;
+  width: 40px;
+  height: 38px;
+  bottom: 0;
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 20%,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0% 80%,
+    0% 20%
+  );
+  z-index: 0;
+}
+
+.pot {
+  background-color: #cc8e35;
+  position: absolute;
+  bottom: 0;
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 20%,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0% 80%,
+    0% 20%
+  );
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  z-index: 99;
+}
+
+.plant-pot-top {
+  background-color: #b37d31;
+  position: absolute;
+  bottom: 28px;
+  width: 40px;
+  height: 10px;
+  z-index: 100;
+  border: 3px solid #2f3640;
+  border-radius: 20%;
+}
+
+.plant-stem {
+  position: absolute;
+  width: 3px;
+  height: 30px;
+  top: 12px;
+  left: 18px;
+  background-color: #2f3640;
+}
+
+.leaf {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  border: 3px solid #2f3640;
+  border-radius: 20% 100%;
+  background-color: #05c46b;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+
+.leaf-1 {
+  top: -1px;
+  left: 18px;
+  transform: rotate(310deg);
+  animation: leaf-1-rotate 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf-1-rotate {
+  0% {
+    transform: rotate(310deg);
+  }
+  50% {
+    transform: rotate(315deg);
+  }
+  100% {
+    transform: rotate(310deg);
+  }
+}
+
+.leaf-2 {
+  top: -1px;
+  left: -4px;
+  transform: rotate(5deg);
+  animation: leaf-2-rotate 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf-2-rotate {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+.leaf-3 {
+  top: 20px;
+  left: -4px;
+  transform: rotate(0deg);
+  animation: leaf-3-rotate 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf-3-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.leaf-4 {
+  top: 20px;
+  left: 18px;
+  transform: rotate(310deg);
+  animation: leaf-4-rotate 2s infinite alternate ease-in-out;
+}
+
+@keyframes leaf-4-rotate {
+  0% {
+    transform: rotate(310deg);
+  }
+  50% {
+    transform: rotate(315deg);
+  }
+  100% {
+    transform: rotate(310deg);
+  }
+}
+
+.bee {
+  position: absolute;
+  top: 54px;
+  left: 10px;
+  z-index: 101;
+  opacity: 0.3;
+}

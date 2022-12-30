@@ -1,15 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
-import PlantWithShadow from './PlantWithShadow';
+import Plant from './Plant';
 import styles from '../styles/PlantCard.module.css';
 
 const PlantCard: React.FC = () => {
   return (
     <div className={styles.container}>
-      <PlantWithShadow />
+      <Plant />
       <div className={styles.text}>
         <div className={styles['heading-container']}>
-          <h3 className={styles.heading}>Floating Plant</h3>
+          <h3 className={styles.heading}>Simple Plant</h3>
           <a
             href='https://github.com/OskiTheCoder'
             target='blank'
