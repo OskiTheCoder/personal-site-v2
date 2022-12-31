@@ -78,8 +78,6 @@
   border: 3px solid #2f3640;
   border-radius: 20% 100%;
   background-color: #05c46b;
-  animation: name duration timing-function delay iteration-count direction
-    fill-mode;
 }
 
 .leaf-1 {
