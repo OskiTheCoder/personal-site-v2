@@ -77,9 +77,9 @@ export default async function handler(
         .status(200)
         .json({ coffee: newVoteCount.coffee, tea: newVoteCount.tea });
     } else {
-      return res.status(405).json({ message: 'oops method not allowed :(' });
+      return res.status(405).json({ message: 'not allowed :(' });
     }
   } catch {
-    return res.status(500).json({ message: 'oops something went wrong :(' });
+    return res.status(500).json({ message: 'ohno :(' });
   }
 }
