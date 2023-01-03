@@ -58,7 +58,6 @@ export default async function handler(
   try {
     if (req.method === 'POST') {
       const result = await ratelimit.limit('api');
-      console.log(result, 'this is the result');
       res.setHeader('X-RateLimit-Limit', result.limit);
       res.setHeader('X-RateLimit-Remaining', result.remaining);
       const { coffee, tea } = req.body;

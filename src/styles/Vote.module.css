@@ -25,10 +25,20 @@
   background-color: #ee5253;
 }
 
+.vote-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
 .vote-coffee {
   width: 75px;
 }
 
 .vote-tea {
   width: 65px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 12px;
 }
