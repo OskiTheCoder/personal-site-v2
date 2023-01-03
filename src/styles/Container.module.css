@@ -6,3 +6,9 @@
   flex-wrap: wrap;
   width: 100%;
 }
+
+@media (max-width: 840px) {
+  .container {
+    gap: 16px;
+  }
+}

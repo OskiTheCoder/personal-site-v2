@@ -163,3 +163,9 @@
   z-index: 101;
   opacity: 0.3;
 }
+
+@media (max-width: 325px) {
+  .container {
+    padding-left: 120px;
+  }
+}
